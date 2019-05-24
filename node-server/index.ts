@@ -13,7 +13,7 @@ io.on("connection", socket => {
   console.log("a user connected");
 });
 
-const server = http.listen(PORT, function () {
+const server = http.listen(PORT, () => {
   console.log(`listening on *:${PORT}`);
 });
 
